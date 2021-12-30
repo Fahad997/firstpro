@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.personal-video{
+-webkit-text-fill-color: transparent;
+font-size: 112px;
+font-family: "Poppins", Sans-serif;
+line-height: 120px;
+}
+
+.recordvid{
+animation-name: floating;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+0%{
+transform: translate(0,0px);
+}
+50%{
+transform: translate(0,30px);
+}
+100%{
+transform: translate(0,-0px);
+}
+}
+
+.for-poppins-font {
+font-family: "Poppins", Sans-serif;
+}
+
+.record-div{
+font-family: "Poppins", Sans-serif;
+line-height: 0.25;
+}
+
+.person-div{
+font-family: "Poppins", Sans-serif;
+line-height: 0.6;
+}
+
+.indie-flower-font{
+font-family: "Indie Flower", Sans-serif;
+font-weight: 500;
+}
+
+.letmet{
+min-height: 720px;
+overflow-y: hidden;
+}
+
+@media screen and (max-width:639px) {
+.letmet{
+min-height: 1130px;
+  overflow-y: hidden;
+} 
+}
