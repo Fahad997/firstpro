@@ -25,13 +25,14 @@ import TypeAnimation from 'react-type-animation';
 const LeadVideos = () => {
 return (
 <>
-<header className='flex sm3:px-4 sm3:pt-6 sm3:pb-4 justify-between lg:px-12 lg:pb-8 lg:pt-10 shadow-lg lg:fixed lg:top-0 w-full bg-white z-10'>
+
+<header className='flex sm3:px-4 sm3:pt-6 sm3:pb-4 sm:pt-8 sm:pb-6 justify-between lg:px-12 lg:pb-8 lg:pt-10 shadow-lg lg:fixed lg:top-0 w-full bg-white z-10'>
 <div>
-<img src={logo} alt='leadvideologo' className='sm3:w-40 sm5:w-44 lg:w-3/5' />
+<img src={logo} alt='leadvideologo' className='sm3:w-40 sm5:w-44 sm:w-48 lg:w-3/5' />
 </div>
 
 <div>
-<Link activeClass='active' to='bookmeeting' smooth={true} duration={3000} className='capitalize bg-green-400 text-white sm3:p-2 sm3:text-xs lg:text-base lg:p-4 rounded font-bold hover:bg-green-500 cursor-pointer'>book meeting</Link>
+<Link activeClass='active' to='bookmeeting' smooth={true} duration={3000} className='capitalize bg-green-400 text-white sm3:p-2 sm3:text-xs sm:text-sm sm:p-3 lg:text-base lg:p-4 rounded font-bold hover:bg-green-500 cursor-pointer'>book meeting</Link>
 </div>
 
 </header>
@@ -44,7 +45,7 @@ return (
 <TypeAnimation cursor={true}
       sequence={['Personalized Videos', 2000,'']}
       wrapper="h1"
-      className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent sm3:text-3xl sm4:text-4xl sm48:text-4xl sm5:text-5xl lg:text-8xl font-black'
+      className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent sm3:text-3xl sm4:text-4xl sm48:text-4xl sm5:text-5xl sm:text-6xl lg:text-8xl font-black'
       repeat={Infinity} />
 <br />
 <h1 className='sm3:text-3xl sm4:text-4xl sm48:text-5xl sm5:text-6xl lg:text-8xl font-black for-poppins-font'>at Scale!</h1>
@@ -52,8 +53,8 @@ return (
 </div>
 
 <div className='sm3:pl-4 sm3:mt-8 lg:mt-16'>
-<p className='for-poppins-font font-sans sm3:text-lg sm4:text-xl sm48:text-2xl sm5:text-3xl sm3:py-1 lg:py-0 lg:text-3xl font-light'>Record only once.</p>
-<p className='for-poppins-font font-sans sm3:text-lg sm4:text-xl sm48:text-2xl sm5:text-3xl lg:text-3xl font-light'><span className='font-bold'>Leadvideo's AI-tech</span> can personalize videos to a million people</p>
+<p className='for-poppins-font font-sans sm3:text-lg sm4:text-xl sm48:text-2xl sm5:text-3xl sm:text-4xl sm:py-2 sm3:py-1 lg:py-0 lg:text-3xl font-light'>Record only once.</p>
+<p className='for-poppins-font font-sans sm3:text-lg sm4:text-xl sm48:text-2xl sm5:text-3xl sm:text-4xl lg:text-3xl font-light'><span className='font-bold'>Leadvideo's AI-tech</span> can personalize videos to a million people</p>
 </div>
 
 </section>
@@ -66,17 +67,17 @@ return (
 </div>
 
 <div className='flex justify-center sm3:mt-2 lg:mt-4'>
-<iframe src="https://player.vimeo.com/video/649444666?h=8f33f1c376" className='sm3:w-4/5 sm3:h-56 lg:mt-2 lg:w-full lg:h-screen' frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" title='khalid'></iframe>
+<iframe src="https://player.vimeo.com/video/649444666?h=8f33f1c376" className='sm3:w-4/5 sm3:h-56 sm:w-full sm:h-80 sm:mt-2 lg:mt-2 lg:w-full lg:h-screen' frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" title='khalid'></iframe>
 </div>
 
-<div className='text-center sm3:mt-8 lg:mt-28 for-poppins-font'>
-<h1 className='sm3:text-lg sm4:text-xl sm48:text-2xl lg:text-4xl sm3:py-1 lg:py-2 font-light'>Simple <span className='font-bold'>TWO</span> step process!</h1>
-<h1 className='sm3:text-4xl sm4:text-4xl sm48:text-5xl lg:text-8xl font-black'>How it works?</h1>
+<div className='text-center sm3:mt-8 sm:mt-16 lg:mt-28 for-poppins-font'>
+<h1 className='sm3:text-lg sm4:text-xl sm48:text-2xl sm:text-3xl lg:text-4xl sm3:py-1 lg:py-2 font-light'>Simple <span className='font-bold'>TWO</span> step process!</h1>
+<h1 className='sm3:text-4xl sm4:text-4xl sm48:text-5xl sm:text-6xl lg:text-8xl font-black'>How it works?</h1>
 </div>
 
 </section>
 
-<section className='sm3:mt-20 lg:mt-28 lg:px-7 lg:flex lg:justify-between'>
+<section className='sm3:mt-20 sm:mt-24 lg:mt-28 lg:px-7 lg:flex lg:justify-between'>
 
 <div className='record-div sm3:pl-4 lg:w-2/5 lg:px-12'>
 <h2 className='sm3:text-2xl sm4:text-3xl sm5:text-4xl lg:text-4xl'>Step 1</h2>
@@ -86,7 +87,7 @@ return (
 <h2 className='font-black capitalize sm3:text-7xl sm4:text-8xl lg:text-8xl'>only</h2>
 <br />
 <h2 className='font-black capitalize sm3:text-7xl sm4:text-8xl lg:text-8xl bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent'>once.</h2>
-<p className='sm3:text-2xl sm4:text-3xl sm5:text-4xl sm3:pt-4 sm3:pr-4 sm5:pr-8 lg:pt-4 lg:pr-24 lg:text-2xl font-light'>No need to record for each one of your customer.</p>
+<p className='sm3:text-2xl sm4:text-3xl sm5:text-4xl sm3:pt-4 sm3:pr-4 sm5:pr-8 sm:pr-28 lg:pt-4 lg:pr-24 lg:text-2xl font-light'>No need to record for each one of your customer.</p>
 </div>
 
 <div className='sm3:mt-8 sm3:px-6 lg:px-0 lg:mt-0 lg:w-3/5'>
@@ -95,7 +96,7 @@ return (
 
 </section>
 
-<section className='sm3:mt-28 lg:mt-52 lg:px-7 lg:flex lg:justify-between'>
+<section className='sm3:mt-28 sm:mt-40 lg:mt-52 lg:px-7 lg:flex lg:justify-between'>
 
 <div className='person-div sm3:pl-4 lg:w-1/2 lg:px-12'>
 <h2 className='sm3:text-2xl sm4:text-4xl lg:text-4xl'>Step 2</h2>
@@ -105,12 +106,12 @@ return (
 <h2 className='font-black sm3:text-5xl sm4:text-6xl sm5:text-7xl lg:text-7xl'>to a million</h2>
 <br />
 <h2 className='font-black sm3:text-5xl sm4:text-6xl sm5:text-7xl lg:text-7xl'>people</h2>
-<p className='sm3:text-xl sm4:text-2xl sm48:text-3xl sm5:text-4xl sm3:pt-6 sm5:mt-4 sm3:pr-8 lg:pt-12 lg:pr-0 lg:text-2xl font-light'>LeadVideos can personalize videos the way</p>
+<p className='sm3:text-xl sm4:text-2xl sm48:text-3xl sm5:text-4xl sm3:pt-6 sm5:mt-4 sm:pr-16 sm3:pr-8 lg:pt-12 lg:pr-0 lg:text-2xl font-light'>LeadVideos can personalize videos the way</p>
 <p className='sm3:text-xl sm4:text-2xl sm48:text-3xl sm5:text-4xl sm3:pt-2 sm3:pr-2 lg:pt-2 lg:pr-0 lg:text-2xl font-light'>Mailchimp can personalize emails.</p>
 
 </div>
 
-<div className='sm3:mt-8 sm3:px-16 lg:px-0 lg:mt-0 lg:w-1/2'>
+<div className='sm3:mt-8 sm3:px-16 sm:mt-16 lg:px-0 lg:mt-0 lg:w-1/2'>
 <img src={personalizepic} alt='personalize pic' className='recordvid' />
 </div>
 
@@ -145,7 +146,7 @@ return (
       wrapper="h1"
       className='sm3:pt-4 sm3:text-3xl sm4:text-4xl sm5:text-5xl sm3:pl-4 lg:pl-0 lg:text-7xl capitalize bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent font-black lg:pt-4'
       repeat={Infinity} />
-<p className='sm3:pt-10 sm3:text-2xl sm4:text-3xl sm3:pl-4 lg:pl-0 sm3:pr-8 sm48:pr-10 sm5:pr-24 lg:pr-0 lg:text-3xl lg:pt-12 font-light'>No one likes to be sold to a <span className='font-bold'>cold hearted Bot.</span></p>
+<p className='sm3:pt-10 sm3:text-2xl sm4:text-3xl sm3:pl-4 lg:pl-0 sm3:pr-8 sm48:pr-10 sm5:pr-24 sm:pr-52 lg:pr-0 lg:text-3xl lg:pt-12 font-light'>No one likes to be sold to a <span className='font-bold'>cold hearted Bot.</span></p>
 <p className='sm3:pt-2 sm3:text-2xl sm4:text-3xl sm3:pl-4 lg:pl-0 lg:text-3xl font-light lg:pt-4'>Take control yourself</p>
 
 <div className='flex justify-center sm3:pt-8 px-6 lg:px-0 lg:pt-12 lg:w-full'>
