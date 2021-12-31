@@ -75,3 +75,10 @@ min-height: 1130px;
   overflow-y: hidden;
 } 
 }
+
+@media screen and (min-width:640px) and (max-width:767px) {
+  .letmet{
+  min-height: 1200px;
+    overflow-y: hidden;
+  } 
+  }
