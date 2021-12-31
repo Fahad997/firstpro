@@ -111,8 +111,8 @@ return (
 
 </div>
 
-<div className='sm3:mt-8 sm3:px-16 sm:mt-16 lg:px-0 lg:mt-0 lg:w-1/2'>
-<img src={personalizepic} alt='personalize pic' className='recordvid' />
+<div className='sm3:mt-8 sm3:px-16 sm:mt-16 sm:px-20 lg:px-0 lg:mt-0 lg:w-1/2'>
+<img src={personalizepic} alt='personalize pic' className='recordvid sm:w-full' />
 </div>
 
 </section>
